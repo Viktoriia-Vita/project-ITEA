@@ -1,0 +1,201 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    :root {
+        font-size: 8px;
+    }
+    .header-top>a{
+        width: 20%;
+    }
+    .header__img{
+        width: 90%;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .imgScreen1{
+        width: 50vw;
+    }
+    .imgScreen1>img{
+        width: 90%;
+    }
+    .card-item{
+        width: 18%;
+    }   
+    .colorFiltr{
+        width: 3rem;
+        height: 3rem;
+    }
+    .stars{
+        height: 70%;
+    }
+    .mans{
+        height: 65vh;
+    }
+    .man{
+        width: 35%;
+        height: 55vh;
+    }
+    .bckgr__foto, .bckgr__foto2{
+        height: 70%;
+    }
+    .trends__product{
+        margin: 9rem auto;
+    }
+    .years{
+        width: 30%;
+    }
+    .footer>.half{
+        width: 65%;
+    }
+    .footer ul{
+        margin: 2rem .5rem;
+    }
+    .footer__title{
+        margin: 2rem 0;
+    }
+    .footer .btn{
+        display: none;
+    }
+    .snoska{
+        height: 2vh;
+    }
+    .catalog{
+        height: fit-content;
+    }
+    .product__foto{
+        height: 140px;
+        width: 70px;
+    }
+    .colors{
+        height: 2.5rem;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .card__product{
+        margin-bottom: 1rem;
+    }
+    .review-card p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 6px;
+    }
+    .header-top>a{
+        width: 20%;
+    }
+    .header__img{
+        width: 90%;
+    }
+    .header-top__search input {
+        background-size: 8%;
+    }
+    .container, .container__column{
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+    .half{
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+    }
+    .title{
+        font-size: 5rem;
+        margin-left: 15rem;
+    }
+    .subtitle, .btn{
+        margin-left: 15rem;
+    }
+    .imgScreen1{
+        width: 80%;
+    }
+    .imgScreen1>img{
+        width: 100%;
+        margin-left: 15rem;
+    }
+    .cards{
+        flex-direction: row;
+    }
+    .card-item img{
+        width: 95%;
+    }
+    .card__buy{
+        background-size: 10%;
+    }
+    .mans{
+        flex-direction: row;
+        height: 50vh;
+    }
+    .man{
+        height: 90%;
+    }
+    .bckgr__foto, .bckgr__foto2{
+        height: 60%;
+    }
+    .btn__foto{
+        width: 80%;
+    }
+    .sportfit{
+        align-items: center;
+    }
+    .sportfit .subtitle{
+        margin-right: 10rem;
+    }
+    .trends{
+        height: 35vh;
+    }
+    .years{
+        width: 30%;
+    }
+    .legasy{
+        height: 25vh;
+    }
+    .footer .btn{
+        display: none;
+    }
+    .footer__half input{
+        width: 60%;
+    }
+    .center{
+        margin: 1rem auto;
+    }
+    .catalog{
+        height: fit-content;
+    }
+    .catalog .card-item {
+        width: 16%;
+    }
+    .catalog .card__buy{
+        width: 100%;
+        height: 3.8rem;
+        font-size: 1.2rem;
+        background-size: 2rem;
+        padding-left: 3.2rem;
+        padding-right: .4rem;
+    }
+    .product__foto{
+        height: 100px;
+        width: 40px;
+    }
+    .colors{
+        height: 2.5rem;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .card__product{
+        margin-bottom: 1rem;
+    }
+    .review-card p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1620px) {
+    body{
+        margin: 0 2%;
+    }
+}

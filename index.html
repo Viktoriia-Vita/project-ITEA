@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotrshop</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+<body>
+    <header>
+        <div class="header-top" id="header">
+            <a href="/"><img src="./image/logo.png" alt="logo" class="header__img"></a>
+            <nav>
+                <ul class="header-top__nav uppercase">
+                    <li class="header-top__nav-item"><a href="#shorts">SHORTS</a></li> 
+                    <li class="header-top__nav-item"><a href="#pants">PANTS</a></li>
+                    <li class="header-top__nav-item"><a href="#shirts">SHIRTS</a></li>
+                    <li class="header-top__nav-item"><a href="#trends">ACCESSORIES</a></li>
+                    <li class="header-top__nav-item"><a href="#sale">SALE</a></li>
+                </ul>
+            </nav>
+            <div class="header-top__search uppercase"><input placeholder="SEARCH ENTIRE STORE HERE" type="search"></div>   <!--фільтер і пошук -->
+        </div>
+    </header>
+    <main>
+        <div class="container white" id="shorts">
+            <div class="half">
+                <div class="title uppercase">BEST SELLING <br>
+                    STRETCH SHORTS</div>
+                <div class="subtitle">Get the perfect fit with 6 different inseam lengths.</div>
+                <a class="btn uppercase" href="./catalog.html" id="btn__shopAll">SHOP ALL SHORTS</a>
+            </div>
+            <div class="half">
+                <div class="imgScreen1">
+                    <img src="./image/banner_1.png" alt="banner">
+                </div>
+            </div>
+        </div>
+        <div class="container__column grey" id="sale">
+            <div class="subtitle center uppercase">TGIF, INLET, AND MARCHAL'S COLLECTIONS</div>
+            <div class="title center uppercase">NOW 40% OFF!</div>
+            <div class="cards container">
+                <div class="card-item white" id="short1"> <!--при натиску на картку переходити на сторінку з товаром-->
+                    <div class="center">
+                        <img src="./image/short1.png" alt="short">
+                    </div>
+                    <div class="card__product">Marchal's Original Cargo Short</div>
+                    <div class="center">
+                        <img src="./image/stars.png" alt="5stars">
+                    </div>
+                    <div class="card__price">As low as <span class="price">$40.99</span></div>
+                    <div class="card__buy">ADD TO CART</div> <!--додати в кошик js localStorage-->
+                </div>
+                <div class="card-item white" id="short2">
+                    <div class="center">
+                        <img src="./image/short2.png" alt="short">
+                    </div>
+                    <div class="card__product">Inlet Original Short</div>
+                    <div class="center">
+                        <img src="./image/stars.png" alt="5stars">
+                    </div>
+                    <div class="card__price">As low as <span class="price">$38.99</span></div>
+                    <div class="card__buy">ADD TO CART</div>
+                </div>
+                <div class="card-item white" id="pant1">
+                    <div class="center">
+                        <img src="./image/pant1.png" alt="pant">
+                    </div>
+                    <div class="card__product">TGIF Pant</div>
+                    <div class="center">
+                        <img src="./image/4stars.png" alt="4stars">
+                    </div>
+                    <div class="card__price">As low as <span class="price">$40.99</span></div>
+                    <div class="card__buy">ADD TO CART</div>
+                </div>
+                <div class="card-item white" id="pant2">
+                    <div class="center">
+                        <img src="./image/pant2.png" alt="pant">
+                    </div>
+                    <div class="card__product">Inlet Original Pant</div>
+                    <div class="center">
+                        <img src="./image/4stars.png" alt="4stars">
+                    </div>
+                    <div class="card__price">As low as <span class="price">$52.99</span></div>
+                    <div class="card__buy uppercase">ADD TO CART</div>
+                </div>
+            </div>
+        </div>
+        <div class="container white" id="pants">
+            <div class="half">
+                <img src="./image/pants.png" class="margin" alt="pants">
+            </div>
+            <div class="half">
+                <div class="title uppercase">OUR BESTSELLING PANTS</div>
+                <div class="subtitle">Our classic cargo pants are built to last and designed to exceed your expectations! From Frequent Traveler to Hatteras to Trinidad, we have the perfect fit for you!</div>
+                <a class="btn uppercase">SHOP ALL PANTS</a>
+            </div>
+        </div>
+        <div class="mans container grey" id="shirts">
+            <div class="man">
+                <div class="bckgr__foto">
+                    <span class="foto__opacity uppercase">ECOTHS: NOW 30% OFF!</span>
+                </div> 
+                <p>Our entire Ecoths collection is on sale! Plus, for every Ecoths purchase we donate 3 meals to food banks across the United States. We’re over 400,000 meals in now.
+                </p>
+                <a class="btn__foto uppercase" href="./catalog.html">SHOP ECOTHS SALE</a>
+            </div>
+            <div class="man">
+                <div class="bckgr__foto2">
+                    <span class="foto__opacity uppercase">NEW POWELL PRINT SHIRT</span>
+                </div> 
+                <p>New from Old Ranch Brands, the Powell short sleeve print shirt! Look effortlessly sharp in this lightweight cotton shirt with a classic shape and convenient features.
+                </p>
+                <a class="btn__foto uppercase" href="./catalog.html">SHOP ECOTHS SALE</a>
+            </div>
+        </div>
+        <div class="sportfit">
+            <div class="half">
+                <div class="title uppercase">SPORTIF ORIGINAL PANT</div>
+                <div class="subtitle">Our classic nautical cargo pants are built to last and designed to exceed your expectations! Crafted from our stretch twill blend that offers the comfort of cotton, the wrinkle resistance of polyester and the mobility of Lycra®.</div>
+                <a class="btn uppercase" href="./catalog.html">SHOP SPORTIF ORIGINAL PANT</a>
+            </div>
+        </div>
+        <div class="trends" id="trends">
+            <div class="title center uppercase">STAY IN TREND WITH SPORTIF</div>
+            <div class="trends__product">
+                <div class="trend_card">
+                    <img src="./image/belts.png" alt="belts">
+                    <span>Don't Forget a Belt!</span>
+                    <a class="trend__buy uppercase" href="./catalog.html">SHOP ALL BELTS</a>
+                </div>
+                <div class="trend_card">
+                    <img src="./image/swim.png" alt="swim">
+                    <span>Swim Trunk Styles on Sale!</span>
+                    <a class="trend__buy uppercase" href="./catalog.html">SHOP ALL SWIM TRUNKS</a>
+                </div>
+                <div class="trend_card">
+                    <img src="./image/catalog.png" alt="catalog">
+                    <span>Shop Newest Online Catalog</span>
+                    <a class="trend__buy uppercase" href="./catalog.html">SHOP NEWEST CATALOG</a>
+                </div>
+            </div>
+        </div>
+        <div class="legasy grey">
+            <img src="./image/50years 1.png" class="years" alt="logo 50years">
+            <div class="title uppercase">FAMILY OWNED LEGACY</div>
+            <div class="subtitle">We are proud to celebrate over 50 years of excellence as a family owned and operated business.</div>
+            <a class="btn uppercase" href="#">ABOUT US</a>
+        </div>
+    </main>
+    <footer>
+        <a href="#header" class="fixed"><img src="./image/btn_fixed.png" alt="up"></a>
+        <div class="footer">
+            <div class="half">
+                <ul>ORDERING ONLINE       
+                    <li>Account Login</li>
+                    <li>Our Guarantee</li>
+                    <li>Sportif Stretch Guide</li>
+                    <li>Size Chart & Sizing Information</li>
+                    <li>Hemming Information</li>
+                    <li>Ordering & Payment</li>
+                    <li>Shipping Information </li>
+                    <li>Returns</li>
+                </ul>
+                <ul>ABOUT SPORTIF
+                    <li>COVID-19 Response</li>
+                    <li>History</li>
+                    <li>Legacy</li>
+                    <li>Good Sam Program</li>
+                    <li>Privacy & Security</li>
+                    <li>Terms & Conditions</li>
+                    <li>Careers</li>
+                </ul>
+                <ul>QUICK LINKS
+                    <li>FAQs</li>
+                    <li>Shop Online Catalog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer__half">
+                <div class="footer__title uppercase">GET TO KNOW US</div>
+                <p>Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</p>
+                <p>Sign Up for Our Newsletter:</p>
+                <input type="email" id="input" placeholder="EMAIl ADDRESS">
+                <div class="btn uppercase">SUBSCRIBE</div>
+            </div>
+        </div>
+        <div class="snoska">©2021 Sportif Mailorder. All Rights Reserved.</div>
+    </footer>
+    <script src="./code/products.js"></script>
+</body>

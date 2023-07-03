@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotrshop Catalog</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+<body>
+    <header>
+        <div class="header-top" id="header">
+            <a href="/"><img src="./image/logo.png" alt="logo" class="header__img"></a>
+            <nav>
+                <ul class="header-top__nav uppercase">
+                    <li class="header-top__nav-item"><a href="./index.html#shorts">SHORTS</a></li> 
+                    <li class="header-top__nav-item"><a href="./index.html#pants">PANTS</a></li>
+                    <li class="header-top__nav-item"><a href="./index.html#shirts">SHIRTS</a></li>
+                    <li class="header-top__nav-item"><a href="./index.html#trends">ACCESSORIES</a></li>
+                    <li class="header-top__nav-item"><a href="./index.html#sale">SALE</a></li>
+                </ul>
+            </nav>
+            <div class="header-top__search uppercase"><input placeholder="SEARCH ENTIRE STORE HERE" type="search"></div>   <!--фільтер і пошук -->
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="home">
+                <a href="./index.html">
+                    <img src="./image/home.png" alt="home">                         
+                HOME</a>
+                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.5558 9.2196L2.65555 0.31951C2.4497 0.113495 2.1749 0 1.8819 0C1.58889 0 1.3141 0.113495 1.10824 0.31951L0.452802 0.974789C0.0263018 1.40178 0.0263018 2.09576 0.452802 2.52209L7.92656 9.99585L0.44451 17.4779C0.238658 17.6839 0.125 17.9586 0.125 18.2514C0.125 18.5446 0.238658 18.8192 0.44451 19.0254L1.09995 19.6805C1.30597 19.8865 1.5806 20 1.8736 20C2.16661 20 2.4414 19.8865 2.64726 19.6805L11.5558 10.7723C11.7621 10.5656 11.8755 10.2897 11.8748 9.99634C11.8755 9.70187 11.7621 9.4261 11.5558 9.2196Z" fill="black"/>
+                </svg>                    
+                <a href="./index.html/#shorts" class="bold">SHORTS</a>
+                <input type="text" placeholder="SEARCH">
+            </div>
+        </section>
+        <section>
+            <div class="screen" id="screen">
+                <div class="filtration white">
+                    <div>
+                        <p class="sizes">size</p>
+                        <span class="size grey">30</span>
+                        <span class="size grey">32</span>
+                        <span class="size grey">34</span>
+                        <span class="size grey">36</span>
+                        <span class="size grey">38</span>
+                        <span class="size grey">40</span>
+                        <span class="size grey">42</span>
+                        <span class="size grey">44</span>
+                        <span class="size grey">46</span>
+                        <span class="size grey">48</span>
+                    </div>
+                    <div class="chooseColors">
+                        <p>color</p>
+                        <span id="filter_white">&#11036</span>
+                        
+                        <span id="filter_black">&#11035</span>
+
+                        <span id="filter_beigh">&#129000</span>
+
+                        <span id="filter_blue">&#128998</span>
+
+                        <span id="filter_khaki">&#129001</span>
+                    </div>
+                    <div>
+                        <p>type</p>
+                        <input type="checkbox" name="check_shorts" id="check_shorts">
+                        <label for="check_shorts">shorts</label><br>
+                        <input type="checkbox" name="check_pants" id="check_pants">
+                        <label for="check_pants">pants</label><br>
+                        <input type="checkbox" name="check_shirts" id="check_shirts">
+                        <label for="check_shirts">shirts</label><br>
+                        <input type="checkbox" name="check_belts" id="check_belts">
+                        <label for="check_belts">belts</label><br>
+                        <input type="checkbox" name="check_swims" id="check_swims">
+                        <label for="check_swims">swims</label>
+                    </div>
+                    <div>
+                        <p>sale</p>
+                        <input type="checkbox" name="check_sale" id="check_sale">
+                        <label for="check_sale">on sale</label>
+                    </div>
+                    <div>
+                        <p>price</p>
+                        <input type="range" name="price" id="price" min="10" max="100">
+                    </div>
+                    <button class="uppercase">submit</button>
+                </div>
+                <div class="catalog" id="catalog">
+                    
+                </div>
+            </div>
+            <div class="pagination">
+                <span class="pagin" id="page1">1</span>
+                <span class="pagin" id="page2">2</span>
+                <span class="pagin" id="page3">3</span>
+                <span class="pagin" id="page4">4</span>
+                <span class="pagin" id="page5">5</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#header" class="fixed"><img src="./image/btn_fixed.png" alt="up"></a>
+        <div class="footer">
+            <div class="half">
+                <ul>ORDERING ONLINE       
+                    <li>Account Login</li>
+                    <li>Our Guarantee</li>
+                    <li>Sportif Stretch Guide</li>
+                    <li>Size Chart & Sizing Information</li>
+                    <li>Hemming Information</li>
+                    <li>Ordering & Payment</li>
+                    <li>Shipping Information </li>
+                    <li>Returns</li>
+                </ul>
+                <ul>ABOUT SPORTIF
+                    <li>COVID-19 Response</li>
+                    <li>History</li>
+                    <li>Legacy</li>
+                    <li>Good Sam Program</li>
+                    <li>Privacy & Security</li>
+                    <li>Terms & Conditions</li>
+                    <li>Careers</li>
+                </ul>
+                <ul>QUICK LINKS
+                    <li>FAQs</li>
+                    <li>Shop Online Catalog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer__half">
+                <div class="footer__title uppercase">GET TO KNOW US</div>
+                <p>Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</p>
+                <p>Sign Up for Our Newsletter:</p>
+                <input type="email" id="input" placeholder="EMAIl ADDRESS">
+                <div class="btn uppercase">SUBSCRIBE</div>
+            </div>
+        </div>
+        <div class="snoska">©2021 Sportif Mailorder. All Rights Reserved.</div>
+    </footer>
+    <script src="./code/products.js"></script>
+</body>
